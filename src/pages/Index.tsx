@@ -158,7 +158,7 @@ export default function Index() {
               <span className="menu-tag">Хит продаж</span>
               <div style={{ position: "relative", overflow: "hidden" }}>
                 <img
-                  src="https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/4705f882-09a8-4a6d-91ca-2d9d44651058.jpg"
+                  src="https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/0d092b8d-c406-4f65-9794-9b916c34b933.jpg"
                   alt="Ягодная классика"
                   style={{ width: "100%", display: "block", objectFit: "contain", background: "#f5e6e0" }}
                 />
