@@ -167,7 +167,7 @@ export default function Index() {
                   }}
                 >
                   <h3>Ягодная классика</h3>
-                  <span className="price">от 8 000 ₽</span>
+                  <span className="price">2 кг от 7 500 ₽</span>
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>
                   Торт со свежими ягодами и шоколадом. Клубника, малина, голубика на нежном креме с шоколадными подтёками.
