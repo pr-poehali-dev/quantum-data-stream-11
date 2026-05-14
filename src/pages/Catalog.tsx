@@ -66,16 +66,18 @@ export default function Catalog() {
     <>
       <div className="grain-overlay" />
       <header className="header">
-        <div className="logo" style={{ overflow: "visible", display: "flex", alignItems: "center", gap: "10px" }}>
-          <img
-            src="https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/233f26f5-ba9a-4607-8df1-1344f2719e4d.jpg"
-            alt="Кондитерская студия"
-            style={{ height: "100px", width: "auto", objectFit: "contain", display: "block" }}
-          />
-          <span style={{ fontFamily: "'Unbounded', sans-serif", fontWeight: 800, fontSize: "14px", lineHeight: 1.2, color: "var(--dark)" }}>
-            ТОРТИК<br />ОТ КОТИКА
-          </span>
-        </div>
+        <a href="/" style={{ textDecoration: "none" }}>
+          <div className="logo" style={{ overflow: "visible", display: "flex", alignItems: "center", gap: "10px" }}>
+            <img
+              src="https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/233f26f5-ba9a-4607-8df1-1344f2719e4d.jpg"
+              alt="Кондитерская студия"
+              style={{ height: "100px", width: "auto", objectFit: "contain", display: "block" }}
+            />
+            <span style={{ fontFamily: "'Unbounded', sans-serif", fontWeight: 800, fontSize: "14px", lineHeight: 1.2, color: "var(--dark)" }}>
+              ТОРТИК<br />ОТ КОТИКА
+            </span>
+          </div>
+        </a>
         <nav>
           <a href="/catalog" style={{ borderBottom: "3px solid var(--primary)" }}>Каталог начинок</a>
           <a href="/about">О нас</a>
