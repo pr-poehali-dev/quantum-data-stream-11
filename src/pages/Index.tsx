@@ -149,8 +149,8 @@ export default function Index() {
           <div className="menu-grid">
             {/* Item 1 */}
             <div className="menu-card">
-              <span className="menu-tag">Хит продаж</span>
               <div style={{ position: "relative", overflow: "hidden" }}>
+                <span className="menu-tag" style={{ position: "absolute", top: "12px", left: "12px", zIndex: 2 }}>Хит продаж</span>
                 <img
                   src="https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/0d092b8d-c406-4f65-9794-9b916c34b933.jpg"
                   alt="Ягодная классика"
