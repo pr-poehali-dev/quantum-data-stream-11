@@ -21,6 +21,26 @@ const fillings = [
     name: "Ореховый",
     img: "https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/d5dd19a7-f708-4787-9c4a-7ced135ff43d.png",
   },
+  {
+    name: "Панчо",
+    img: "https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/54858b8a-7b4c-4c77-bd50-cf3fc0a017ce.png",
+  },
+  {
+    name: "Красный бархат",
+    img: "https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/ca0ddd72-6306-4b7f-8a37-3db3953074f9.png",
+  },
+  {
+    name: "Манго–маракуйя",
+    img: "https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/dfdc7497-9036-49dc-9e4c-a42b1fe275ac.png",
+  },
+  {
+    name: "Наполеон",
+    img: "https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/215efd28-f3ba-4170-8837-ad8aca13bb6f.png",
+  },
+  {
+    name: "Маково–клубничный",
+    img: "https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/4af71856-a7ba-4cf8-9c7c-7a80c08ba0d0.png",
+  },
 ];
 
 export default function Catalog() {
