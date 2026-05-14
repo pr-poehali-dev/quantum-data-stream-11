@@ -10,6 +10,9 @@ export default function Index() {
             alt="Кондитерская студия"
             style={{ height: "64px", width: "auto", objectFit: "contain" }}
           />
+          <span style={{ fontFamily: "'Unbounded', sans-serif", fontWeight: 800, fontSize: "14px", lineHeight: 1.2, color: "var(--dark)" }}>
+            ТОРТИК<br />ОТ КОТИКА
+          </span>
         </div>
         <nav>
           <a href="#">Каталог</a>
@@ -172,7 +175,7 @@ export default function Index() {
 
         <section className="section-padding">
           <h2 className="section-title" style={{ marginBottom: "40px", textAlign: "center" }}>
-            @SWEET.STUDIO
+            @ТОРТИК.ОТ.КОТИКА
           </h2>
           <div className="social-grid">
             <div className="social-item">
