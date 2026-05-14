@@ -1,3 +1,78 @@
+import { useState } from "react";
+
+const ORDER_URL = "https://functions.poehali.dev/e6efea22-0398-49fb-b01a-9a4ba4d75728";
+
+function OrderForm() {
+  const [form, setForm] = useState({ name: "", phone: "", date: "", guests: "", filling: "", design: "" });
+  const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
+
+  const set = (field: string) => (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) =>
+    setForm((f) => ({ ...f, [field]: e.target.value }));
+
+  const submit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setStatus("loading");
+    try {
+      const res = await fetch(ORDER_URL, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(form) });
+      const data = await res.json();
+      setStatus(data.success ? "success" : "error");
+    } catch {
+      setStatus("error");
+    }
+  };
+
+  const inputStyle: React.CSSProperties = {
+    width: "100%", padding: "12px 16px", border: "var(--border)", background: "white",
+    fontFamily: "Montserrat, sans-serif", fontWeight: 600, fontSize: "14px", outline: "none",
+    boxShadow: "3px 3px 0 var(--dark)"
+  };
+  const labelStyle: React.CSSProperties = { fontWeight: 800, fontSize: "12px", textTransform: "uppercase", marginBottom: "6px", display: "block" };
+
+  if (status === "success") return (
+    <div style={{ textAlign: "center", padding: "60px 20px" }}>
+      <div style={{ fontSize: "60px", marginBottom: "20px" }}>🐱</div>
+      <h3 style={{ fontFamily: "Unbounded, sans-serif", fontSize: "24px", marginBottom: "12px" }}>ЗАЯВКА ОТПРАВЛЕНА!</h3>
+      <p style={{ color: "#666" }}>Мы свяжемся с вами в ближайшее время для уточнения деталей.</p>
+    </div>
+  );
+
+  return (
+    <form onSubmit={submit} style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "20px" }}>
+      <div style={{ gridColumn: "1" }}>
+        <label style={labelStyle}>Ваше имя *</label>
+        <input required style={inputStyle} placeholder="Как вас зовут?" value={form.name} onChange={set("name")} />
+      </div>
+      <div style={{ gridColumn: "2" }}>
+        <label style={labelStyle}>Телефон *</label>
+        <input required style={inputStyle} placeholder="+7 900 000 00 00" value={form.phone} onChange={set("phone")} />
+      </div>
+      <div>
+        <label style={labelStyle}>Дата мероприятия</label>
+        <input type="date" style={inputStyle} value={form.date} onChange={set("date")} />
+      </div>
+      <div>
+        <label style={labelStyle}>Количество гостей</label>
+        <input style={inputStyle} placeholder="Например: 30 человек" value={form.guests} onChange={set("guests")} />
+      </div>
+      <div>
+        <label style={labelStyle}>Начинка</label>
+        <input style={inputStyle} placeholder="Шоколад, ваниль, фрукты..." value={form.filling} onChange={set("filling")} />
+      </div>
+      <div>
+        <label style={labelStyle}>Пожелания по дизайну</label>
+        <input style={inputStyle} placeholder="Цветы, фигурки, надпись..." value={form.design} onChange={set("design")} />
+      </div>
+      <div style={{ gridColumn: "1 / -1" }}>
+        {status === "error" && <p style={{ color: "red", marginBottom: "12px", fontWeight: 700 }}>Ошибка отправки. Попробуйте ещё раз.</p>}
+        <button type="submit" className="btn-cta" disabled={status === "loading"}
+          style={{ background: "var(--primary)", color: "white", width: "100%", padding: "16px", fontSize: "16px" }}>
+          {status === "loading" ? "Отправляем..." : "🎂 Отправить заявку"}
+        </button>
+      </div>
+    </form>
+  );
+}
+
 export default function Index() {
   return (
     <>
@@ -202,6 +277,16 @@ export default function Index() {
                 alt="Торт 4"
               />
             </div>
+          </div>
+        </section>
+
+        <section className="section-padding" style={{ background: "var(--bg)", borderTop: "var(--border)" }}>
+          <div style={{ maxWidth: "760px", margin: "0 auto" }}>
+            <h2 className="section-title" style={{ marginBottom: "12px", textAlign: "center" }}>ЗАКАЗАТЬ ТОРТ</h2>
+            <p style={{ textAlign: "center", color: "#666", marginBottom: "40px", fontSize: "16px" }}>
+              Заполните форму — мы свяжемся с вами и обсудим все детали
+            </p>
+            <OrderForm />
           </div>
         </section>
       </main>
