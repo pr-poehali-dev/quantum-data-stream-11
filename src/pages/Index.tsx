@@ -118,7 +118,7 @@ export default function Index() {
               </button>
             </div>
           </div>
-          <div className="hero-img" style={{ backgroundImage: "url('https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/917150d0-24d1-4d31-b342-f4c091b48a40.png')" }}>
+          <div className="hero-img" style={{ backgroundImage: "url('https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/917150d0-24d1-4d31-b342-f4c091b48a40.png')", backgroundSize: "contain", backgroundRepeat: "no-repeat", backgroundPosition: "center", backgroundColor: "#f5e6e0" }}>
             <div className="sticker">
               РУЧНАЯ
               <br />
