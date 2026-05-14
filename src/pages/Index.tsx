@@ -343,6 +343,12 @@ export default function Index() {
             <li>WhatsApp</li>
             <li>Telegram</li>
           </ul>
+          <p style={{ marginTop: "12px", fontSize: "14px", lineHeight: "1.6" }}>
+            <strong>Самовывоз:</strong> Московская область, г. Ступино, ул. Пристанционная 6, 2 этаж, офис 204
+          </p>
+          <p style={{ marginTop: "8px", fontSize: "14px", lineHeight: "1.6" }}>
+            Доставка по Москве и Московской области. Стоимость доставки рассчитывается индивидуально.
+          </p>
         </div>
       </footer>
     </>
