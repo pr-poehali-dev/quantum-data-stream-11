@@ -91,7 +91,7 @@ export default function Index() {
         </div>
         <nav>
           <a href="/catalog">Каталог начинок</a>
-          <a href="#">О нас</a>
+          <a href="/about">О нас</a>
           <a href="#">Галерея</a>
           <a href="#">Контакты</a>
         </nav>

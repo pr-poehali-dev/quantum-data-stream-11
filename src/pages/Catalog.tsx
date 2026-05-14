@@ -78,7 +78,7 @@ export default function Catalog() {
         </div>
         <nav>
           <a href="/catalog" style={{ borderBottom: "3px solid var(--primary)" }}>Каталог начинок</a>
-          <a href="#">О нас</a>
+          <a href="/about">О нас</a>
           <a href="#">Галерея</a>
           <a href="#">Контакты</a>
         </nav>
