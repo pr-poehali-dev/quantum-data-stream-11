@@ -181,8 +181,8 @@ export default function Index() {
                 Популярное
               </span>
               <img
-                src="https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/files/f0913fe4-fdee-4dcb-a2ff-024a7e7c0fae.jpg"
-                alt="Праздничный торт"
+                src="https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/8ae999de-132a-4e0e-8f6d-6fe8516658a8.jpg"
+                alt="Торт в стиле Ламбет"
               />
               <div className="menu-card-body">
                 <div
@@ -193,10 +193,10 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Праздничный</h3>
-                  <span className="price">от 4 500 ₽</span>
+                  <h3>Торт в стиле Ламбет</h3>
+                  <span className="price">от 3 700 ₽/кг</span>
                 </div>
-                <p style={{ fontSize: "14px", color: "#666" }}>День рождения, юбилей, корпоратив — создадим торт под любое событие.</p>
+                <p style={{ fontSize: "14px", color: "#666" }}>Воздушный крем-чиз с нежными кремовыми рюшами и жемчужинами в винтажном стиле Ламбет — элегантно и трогательно.</p>
               </div>
             </div>
 
