@@ -118,17 +118,11 @@ export default function Index() {
               </button>
             </div>
           </div>
-          <div className="hero-img" style={{ backgroundImage: "url('https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/917150d0-24d1-4d31-b342-f4c091b48a40.png')", backgroundSize: "contain", backgroundRepeat: "no-repeat", backgroundPosition: "center", backgroundColor: "#f5e6e0" }}>
+          <div className="hero-img" style={{ backgroundImage: "url('https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/61de51f6-2be9-4ac0-8b4e-a5295c4f1d4d.jpg')", backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center" }}>
             <div className="sticker">
               РУЧНАЯ
               <br />
               РАБОТА
-            </div>
-            <div className="floating-tag hidden md:block" style={{ top: "20%", left: "10%" }}>
-              #АВТОРСКИЙ
-            </div>
-            <div className="floating-tag hidden md:block" style={{ bottom: "30%", right: "20%" }}>
-              С ЛЮБОВЬЮ
             </div>
           </div>
         </section>
