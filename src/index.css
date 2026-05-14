@@ -97,7 +97,7 @@
 
 /* Header */
 header {
-  height: 100px;
+  height: 110px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -107,11 +107,12 @@ header {
   position: sticky;
   top: 0;
   z-index: 1000;
+  overflow: visible;
 }
 
 @media (min-width: 768px) {
   header {
-    height: 100px;
+    height: 110px;
     padding: 0 50px;
   }
 }
