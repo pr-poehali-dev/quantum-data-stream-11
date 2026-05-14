@@ -41,6 +41,22 @@ const fillings = [
     name: "Маково–клубничный",
     img: "https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/4af71856-a7ba-4cf8-9c7c-7a80c08ba0d0.png",
   },
+  {
+    name: "Ягодный мусс",
+    img: "https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/535befe3-4e5e-48bc-85a1-779988bcfb49.png",
+  },
+  {
+    name: "Шоколадный",
+    img: "https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/4f27b66a-bc05-452d-ace2-a6bf9d7b2438.png",
+  },
+  {
+    name: "ОРЕО",
+    img: "https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/9f7b169a-95c2-4ec0-8cab-c6612a82b4f3.png",
+  },
+  {
+    name: "Фисташка–малина",
+    img: "https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/25686e67-4242-49f8-be5d-593bbf45e0a0.png",
+  },
 ];
 
 export default function Catalog() {
