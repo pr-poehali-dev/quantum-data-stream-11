@@ -79,7 +79,7 @@ export default function Catalog() {
         <nav>
           <a href="/catalog" style={{ borderBottom: "3px solid var(--primary)" }}>Каталог начинок</a>
           <a href="/about">О нас</a>
-          <a href="#">Галерея</a>
+          <a href="/gallery">Галерея</a>
           <a href="#">Контакты</a>
         </nav>
         <button className="btn-cta" onClick={() => navigate("/")}>Заказать торт</button>

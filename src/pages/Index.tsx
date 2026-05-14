@@ -92,7 +92,7 @@ export default function Index() {
         <nav>
           <a href="/catalog">Каталог начинок</a>
           <a href="/about">О нас</a>
-          <a href="#">Галерея</a>
+          <a href="/gallery">Галерея</a>
           <a href="#">Контакты</a>
         </nav>
         <button className="btn-cta">Заказать торт</button>

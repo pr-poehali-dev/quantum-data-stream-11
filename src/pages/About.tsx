@@ -16,7 +16,7 @@ export default function About() {
         <nav>
           <a href="/catalog">Каталог начинок</a>
           <a href="/about" style={{ borderBottom: "3px solid var(--primary)" }}>О нас</a>
-          <a href="#">Галерея</a>
+          <a href="/gallery">Галерея</a>
           <a href="#">Контакты</a>
         </nav>
         <button className="btn-cta" onClick={() => window.location.href = "/"}>Заказать торт</button>
