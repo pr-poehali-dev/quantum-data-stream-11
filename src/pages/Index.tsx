@@ -4,7 +4,13 @@ export default function Index() {
       <div className="grain-overlay" />
 
       <header className="header">
-        <div className="logo">SWEET*STUDIO</div>
+        <div className="logo">
+          <img
+            src="https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/233f26f5-ba9a-4607-8df1-1344f2719e4d.jpg"
+            alt="Кондитерская студия"
+            style={{ height: "64px", width: "auto", objectFit: "contain" }}
+          />
+        </div>
         <nav>
           <a href="#">Каталог</a>
           <a href="#">О нас</a>
@@ -199,7 +205,13 @@ export default function Index() {
 
       <footer>
         <div>
-          <div className="footer-logo">SWEET*STUDIO</div>
+          <div className="footer-logo">
+            <img
+              src="https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/233f26f5-ba9a-4607-8df1-1344f2719e4d.jpg"
+              alt="Кондитерская студия"
+              style={{ height: "80px", width: "auto", objectFit: "contain" }}
+            />
+          </div>
           <p style={{ color: "#666", lineHeight: 1.6 }}>
             Авторская кондитерская студия. Торты на заказ с любовью и вниманием к каждой детали.
           </p>
