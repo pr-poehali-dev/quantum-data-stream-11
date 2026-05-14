@@ -203,11 +203,11 @@ export default function Index() {
             {/* Item 3 */}
             <div className="menu-card">
               <span className="menu-tag" style={{ background: "var(--accent)", color: "var(--dark)" }}>
-                Новинка
+                Капкейки
               </span>
               <img
-                src="https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/files/1147c1eb-8325-41d6-8bd2-77d47af29711.jpg"
-                alt="Капкейки и макаруны"
+                src="https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/bd96ae11-abdc-4d15-8bf5-56283c3d20c7.JPG"
+                alt="Капкейки"
               />
               <div className="menu-card-body">
                 <div
@@ -218,11 +218,11 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Капкейки и макаруны</h3>
-                  <span className="price">от 150 ₽/шт</span>
+                  <h3>Капкейки</h3>
+                  <span className="price">350 ₽/шт</span>
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>
-                  Идеально для фуршетов и корпоративных подарков. Упаковка в брендированных коробках.
+                  Нежные капкейки с воздушным кремом, украшенные свежими ягодами и мятой. Малиновые и шоколадные — на любой вкус. Идеально для праздника или приятного угощения.
                 </p>
               </div>
             </div>
