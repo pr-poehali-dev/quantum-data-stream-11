@@ -160,7 +160,7 @@ export default function Index() {
                 <img
                   src="https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/4705f882-09a8-4a6d-91ca-2d9d44651058.jpg"
                   alt="Ягодная классика"
-                  style={{ width: "100%", display: "block", objectFit: "cover", objectPosition: "center 30%" }}
+                  style={{ width: "100%", display: "block", objectFit: "contain", background: "#f5e6e0" }}
                 />
               </div>
               <div className="menu-card-body">
