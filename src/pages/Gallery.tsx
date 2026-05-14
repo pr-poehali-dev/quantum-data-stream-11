@@ -7,10 +7,10 @@ const photos = [
   "https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/41f71503-94e7-4ac2-8162-19ef4c807bab.jpg",
   "https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/5fa64d0a-9aae-4c68-b450-ad6c7329fb2d.jpg",
   "https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/4705f882-09a8-4a6d-91ca-2d9d44651058.jpg",
-  "https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/files/cd6bc675-46d0-4206-aa43-24cd09022f16.jpg",
-  "https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/files/f0913fe4-fdee-4dcb-a2ff-024a7e7c0fae.jpg",
-  "https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/files/c92050cd-3c56-4d0d-9f65-f42ade520d2d.jpg",
-  "https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/files/1147c1eb-8325-41d6-8bd2-77d47af29711.jpg",
+  "https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/901e5a32-576f-4591-916f-78eaeee32e7c.jpg",
+  "https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/a3512fc3-f659-462b-8322-83c783b4fef9.jpg",
+  "https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/2e09d765-f501-4bb2-bb68-fcd88c529e2d.jpg",
+  "https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/1f6352e0-5a05-40bb-937f-c64002942cfb.jpg",
 ];
 
 export default function Gallery() {
