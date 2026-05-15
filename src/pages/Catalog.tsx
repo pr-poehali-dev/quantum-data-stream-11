@@ -69,6 +69,10 @@ const fillings = [
     name: "Молочная девочка",
     img: "https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/db1e34e7-34f7-4704-839c-af8b6dd48738.png",
   },
+  {
+    name: "Рафаэлло",
+    img: "https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/e6624931-b287-40e0-ad21-6601eb7f3501.png",
+  },
 ];
 
 export default function Catalog() {
