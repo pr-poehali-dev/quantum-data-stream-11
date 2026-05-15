@@ -238,6 +238,14 @@ export default function Index() {
             <button className="btn-cta" style={{ background: "var(--dark)", color: "white", borderColor: "white" }}>
               Наши десерты
             </button>
+            <div className="vibe-extra-photos">
+              <div className="vibe-extra-item">
+                <img src="https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/f6e03eac-1ce7-4ca5-babe-0e28cbc93f0a.jpg" alt="Торт Павлова" />
+              </div>
+              <div className="vibe-extra-item">
+                <img src="https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/f97768e7-133b-4508-a124-ef19a44ec214.jpg" alt="Меренга" />
+              </div>
+            </div>
           </div>
           <div className="desserts-gallery">
             <div className="desserts-gallery-item">

@@ -567,6 +567,31 @@ nav a:hover {
   white-space: nowrap;
 }
 
+.vibe-extra-photos {
+  display: flex;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.vibe-extra-item {
+  flex: 1;
+  border-radius: 8px;
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+}
+
+.vibe-extra-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.vibe-extra-item:hover img {
+  transform: scale(1.05);
+}
+
 @media (max-width: 767px) {
   .desserts-gallery {
     border-left: none;
