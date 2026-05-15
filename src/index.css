@@ -503,6 +503,44 @@ nav a:hover {
   }
 }
 
+.desserts-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 4px;
+  flex: 1;
+  border-left: var(--border);
+  min-height: 400px;
+}
+
+.desserts-gallery-item {
+  overflow: hidden;
+}
+
+.desserts-gallery-item:first-child {
+  grid-column: 1 / 3;
+}
+
+.desserts-gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.desserts-gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+@media (max-width: 767px) {
+  .desserts-gallery {
+    border-left: none;
+    border-top: var(--border);
+    min-height: 300px;
+  }
+}
+
 .vibe-title {
   font-size: 32px;
   font-weight: 800;
