@@ -265,6 +265,15 @@ export default function Index() {
                   <span className="desserts-price">80 ₽/шт</span>
                 </div>
               </div>
+              <div className="vibe-extra-item">
+                <div className="vibe-extra-img-wrap">
+                  <img src="https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/77da004d-3206-4ff1-9e60-37d692525b92.jpg" alt="Пряничные открытки" />
+                </div>
+                <div className="desserts-caption">
+                  <span className="desserts-name">Пряничные открытки</span>
+                  <span className="desserts-price">от 250 ₽/шт</span>
+                </div>
+              </div>
             </div>
           </div>
           <div className="desserts-gallery">
@@ -311,15 +320,6 @@ export default function Index() {
               <div className="desserts-caption">
                 <span className="desserts-name">Леденцы</span>
                 <span className="desserts-price">80 ₽/шт</span>
-              </div>
-            </div>
-            <div className="desserts-gallery-item">
-              <div className="desserts-img-wrap">
-                <img src="https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/77da004d-3206-4ff1-9e60-37d692525b92.jpg" alt="Пряничные открытки" />
-              </div>
-              <div className="desserts-caption">
-                <span className="desserts-name">Пряничные открытки</span>
-                <span className="desserts-price">от 250 ₽/шт</span>
               </div>
             </div>
           </div>
