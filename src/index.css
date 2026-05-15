@@ -514,11 +514,22 @@ nav a:hover {
 }
 
 .desserts-gallery-item {
-  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .desserts-gallery-item:first-child {
   grid-column: 1 / 3;
+}
+
+.desserts-gallery-item .desserts-img-wrap {
+  flex: 1;
+  overflow: hidden;
+  min-height: 140px;
+}
+
+.desserts-gallery-item:first-child .desserts-img-wrap {
+  min-height: 200px;
 }
 
 .desserts-gallery-item img {

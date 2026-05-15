@@ -241,35 +241,45 @@ export default function Index() {
           </div>
           <div className="desserts-gallery">
             <div className="desserts-gallery-item">
-              <img src="https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/d2f2434c-7aa3-48fa-812e-22df4a6fa8f0.jpg" alt="Бенто-торт" />
+              <div className="desserts-img-wrap">
+                <img src="https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/d2f2434c-7aa3-48fa-812e-22df4a6fa8f0.jpg" alt="Бенто-торт" />
+              </div>
               <div className="desserts-caption">
                 <span className="desserts-name">Бенто 500 гр.</span>
                 <span className="desserts-price">2 000 ₽</span>
               </div>
             </div>
             <div className="desserts-gallery-item">
-              <img src="https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/bf7f3e3b-9845-4f40-8463-83d5a2c93506.jpg" alt="Эскимо" />
+              <div className="desserts-img-wrap">
+                <img src="https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/bf7f3e3b-9845-4f40-8463-83d5a2c93506.jpg" alt="Эскимо" />
+              </div>
               <div className="desserts-caption">
                 <span className="desserts-name">Эскимо</span>
                 <span className="desserts-price">280 ₽/шт</span>
               </div>
             </div>
             <div className="desserts-gallery-item">
-              <img src="https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/06de8d0f-89fe-485d-a7e9-8a1498b2360e.jpg" alt="Трайфлы" />
+              <div className="desserts-img-wrap">
+                <img src="https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/06de8d0f-89fe-485d-a7e9-8a1498b2360e.jpg" alt="Трайфлы" />
+              </div>
               <div className="desserts-caption">
                 <span className="desserts-name">Трайфлы</span>
                 <span className="desserts-price">350 ₽/шт</span>
               </div>
             </div>
             <div className="desserts-gallery-item">
-              <img src="https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/6a68b182-f895-43f0-a7ec-91935647720c.jpg" alt="Кейк-попсы" />
+              <div className="desserts-img-wrap">
+                <img src="https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/6a68b182-f895-43f0-a7ec-91935647720c.jpg" alt="Кейк-попсы" />
+              </div>
               <div className="desserts-caption">
                 <span className="desserts-name">Кейк-попсы</span>
                 <span className="desserts-price">250 ₽/шт</span>
               </div>
             </div>
             <div className="desserts-gallery-item">
-              <img src="https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/238a1784-1c92-46af-b3ce-4d7cbf114242.jpg" alt="Леденцы" />
+              <div className="desserts-img-wrap">
+                <img src="https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/238a1784-1c92-46af-b3ce-4d7cbf114242.jpg" alt="Леденцы" />
+              </div>
               <div className="desserts-caption">
                 <span className="desserts-name">Леденцы</span>
                 <span className="desserts-price">80 ₽/шт</span>
