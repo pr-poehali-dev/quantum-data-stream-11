@@ -21,6 +21,7 @@ const photos = [
   "https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/05d1a6cd-399d-436a-bc17-a309d4dfaa27.jpg",
   "https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/0a1eaa81-cdc4-4548-b19f-078cf51012a3.jpg",
   "https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/d1b893ba-3ae7-4fa1-afc9-1bd483fc3e07.jpg",
+  "https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/5fa4db79-9622-4af7-b922-0e8f160da4ce.jpg",
 ];
 
 export default function Gallery() {
