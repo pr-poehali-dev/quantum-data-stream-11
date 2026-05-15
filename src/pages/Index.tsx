@@ -317,32 +317,38 @@ export default function Index() {
         </section>
 
         <section className="section-padding">
-          <h2 className="section-title" style={{ marginBottom: "40px", textAlign: "center" }}>
-            @ТОРТИК.ОТ.КОТИКА
+          <h2 className="section-title" style={{ marginBottom: "12px", textAlign: "center" }}>
+            РЕАЛИСТИЧНЫЕ 3D-ТОРТЫ
           </h2>
+          <p style={{ textAlign: "center", color: "#666", marginBottom: "12px", fontSize: "16px", maxWidth: "600px", margin: "0 auto 12px" }}>
+            Мы изготавливаем реалистичные 3D-торты в форме любого предмета — от стейка до батарейки. Каждый торт — настоящее произведение искусства, которое поражает гостей.
+          </p>
+          <p style={{ textAlign: "center", marginBottom: "40px", fontSize: "18px", fontWeight: 700, color: "var(--primary)" }}>
+            от 4 000 ₽/кг
+          </p>
           <div className="social-grid">
             <div className="social-item">
               <img
-                src="https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/files/cd6bc675-46d0-4206-aa43-24cd09022f16.jpg"
-                alt="Торт 1"
+                src="https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/5e43eb15-e7cf-40a4-89f7-08dd4870b54b.JPG"
+                alt="3D торт стейк"
               />
             </div>
             <div className="social-item">
               <img
-                src="https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/files/f0913fe4-fdee-4dcb-a2ff-024a7e7c0fae.jpg"
-                alt="Торт 2"
+                src="https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/83260b32-16d5-4361-a263-a7b68efc8c77.JPG"
+                alt="3D торт сгущёнка"
               />
             </div>
             <div className="social-item">
               <img
-                src="https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/files/c92050cd-3c56-4d0d-9f65-f42ade520d2d.jpg"
-                alt="Торт 3"
+                src="https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/c20b6742-dff2-45df-8dba-2d83ea244be7.JPG"
+                alt="3D торт батарейка"
               />
             </div>
             <div className="social-item">
               <img
-                src="https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/files/1147c1eb-8325-41d6-8bd2-77d47af29711.jpg"
-                alt="Торт 4"
+                src="https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/5172a903-26ec-4d0a-9954-5d1432c2034f.JPG"
+                alt="3D торт ёжик"
               />
             </div>
           </div>
