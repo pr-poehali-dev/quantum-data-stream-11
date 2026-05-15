@@ -533,6 +533,29 @@ nav a:hover {
   transform: scale(1.05);
 }
 
+.desserts-caption {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  background: var(--dark);
+  gap: 8px;
+}
+
+.desserts-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 0.03em;
+}
+
+.desserts-price {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--accent);
+  white-space: nowrap;
+}
+
 @media (max-width: 767px) {
   .desserts-gallery {
     border-left: none;
