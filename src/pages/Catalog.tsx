@@ -57,6 +57,14 @@ const fillings = [
     name: "Фисташка–малина",
     img: "https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/25686e67-4242-49f8-be5d-593bbf45e0a0.png",
   },
+  {
+    name: "Медовик",
+    img: "https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/13eebf1b-5312-411d-b156-f7d2eaf5c1bc.png",
+  },
+  {
+    name: "Сникерс",
+    img: "https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/546af9f9-7a1f-4844-8c56-f8066ca96593.png",
+  },
 ];
 
 export default function Catalog() {
