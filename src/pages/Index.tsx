@@ -121,6 +121,9 @@ export default function Index() {
               <button className="btn-cta" style={{ background: "white" }}>
                 Смотреть работы
               </button>
+              <a href="https://wa.me/89856008537" target="_blank" rel="noopener noreferrer" className="btn-cta" style={{ background: "#25D366", color: "white", textDecoration: "none", display: "inline-flex", alignItems: "center", gap: "8px" }}>
+                💬 Написать нам
+              </a>
             </div>
           </div>
           <div className="hero-img" style={{ backgroundImage: "url('https://cdn.poehali.dev/projects/5b194af4-37bf-4e02-8f5b-610294bb3a9a/bucket/61de51f6-2be9-4ac0-8b4e-a5295c4f1d4d.jpg')", backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center" }}>
