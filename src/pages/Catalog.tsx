@@ -96,7 +96,12 @@ export default function Catalog() {
           <a href="/gallery">Галерея</a>
           <a href="#">Контакты</a>
         </nav>
-        <button className="btn-cta" onClick={() => navigate("/")}>Заказать торт</button>
+        <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
+          <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" style={{ display: "flex", alignItems: "center", justifyContent: "center", width: "36px", height: "36px", borderRadius: "50%", background: "var(--primary)", color: "white", textDecoration: "none", fontSize: "16px" }}>📷</a>
+          <a href="https://wa.me/79000000000" target="_blank" rel="noopener noreferrer" style={{ display: "flex", alignItems: "center", justifyContent: "center", width: "36px", height: "36px", borderRadius: "50%", background: "var(--primary)", color: "white", textDecoration: "none", fontSize: "16px" }}>💬</a>
+          <a href="https://t.me/username" target="_blank" rel="noopener noreferrer" style={{ display: "flex", alignItems: "center", justifyContent: "center", width: "36px", height: "36px", borderRadius: "50%", background: "var(--primary)", color: "white", textDecoration: "none", fontSize: "16px" }}>✈️</a>
+          <button className="btn-cta" onClick={() => navigate("/")}>Заказать торт</button>
+        </div>
       </header>
 
       <main>
