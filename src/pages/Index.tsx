@@ -432,6 +432,9 @@ export default function Index() {
           <p style={{ marginTop: "12px", fontSize: "14px", lineHeight: "1.6" }}>
             <strong>Самовывоз:</strong> Московская область, г. Ступино, ул. Пристанционная 6, 2 этаж, офис 204
           </p>
+          <p style={{ marginTop: "6px", fontSize: "14px", lineHeight: "1.6" }}>
+            <a href="tel:+79856008537" style={{ color: "var(--primary)", textDecoration: "none", fontWeight: 600 }}>+7 985 600-85-37</a>
+          </p>
           <p style={{ marginTop: "8px", fontSize: "14px", lineHeight: "1.6" }}>
             Доставка по Москве и Московской области. Стоимость доставки рассчитывается индивидуально.
           </p>
