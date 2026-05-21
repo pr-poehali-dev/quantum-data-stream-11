@@ -76,6 +76,7 @@ function OrderForm() {
 
 export default function Index() {
   const navigate = useNavigate();
+  const [showContacts, setShowContacts] = useState(false);
   return (
     <>
       <div className="grain-overlay" />
@@ -95,7 +96,7 @@ export default function Index() {
           <a href="/catalog">Каталог начинок</a>
           <a href="/about">О нас</a>
           <a href="/gallery">Галерея</a>
-          <a href="#">Контакты</a>
+          <a href="#" onClick={(e) => { e.preventDefault(); setShowContacts(v => !v); }}>Контакты</a>
         </nav>
         <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
           <a href="https://www.instagram.com/tortik_ot_kotika?utm_source=qr&igsh=aGtqaWJvbzN2bmN5" target="_blank" rel="noopener noreferrer" style={{ display: "flex", alignItems: "center", justifyContent: "center", width: "36px", height: "36px", borderRadius: "50%", background: "var(--primary)", color: "white", textDecoration: "none", fontSize: "16px" }}>📷</a>
@@ -104,6 +105,27 @@ export default function Index() {
           <button className="btn-cta" onClick={() => document.getElementById("order-form")?.scrollIntoView({ behavior: "smooth" })}>Заказать торт</button>
         </div>
       </header>
+
+      {showContacts && (
+        <div onClick={() => setShowContacts(false)} style={{ position: "fixed", inset: 0, background: "rgba(0,0,0,0.4)", zIndex: 999, display: "flex", alignItems: "center", justifyContent: "center" }}>
+          <div onClick={e => e.stopPropagation()} style={{ background: "white", borderRadius: "20px", padding: "36px 40px", maxWidth: "360px", width: "90%", textAlign: "center", boxShadow: "0 8px 40px rgba(0,0,0,0.18)" }}>
+            <h2 style={{ fontFamily: "'Unbounded', sans-serif", fontSize: "18px", marginBottom: "8px" }}>Контакты</h2>
+            <a href="tel:+79856008537" style={{ display: "block", fontSize: "24px", fontWeight: 700, color: "var(--primary)", textDecoration: "none", margin: "16px 0" }}>+7 985 600-85-37</a>
+            <div style={{ display: "flex", flexDirection: "column", gap: "12px", marginTop: "20px" }}>
+              <a href="https://wa.me/79856008537" target="_blank" rel="noopener noreferrer" style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "10px", padding: "12px", borderRadius: "12px", background: "#25D366", color: "white", textDecoration: "none", fontWeight: 600, fontSize: "15px" }}>
+                💬 WhatsApp
+              </a>
+              <a href="https://t.me/+79856008537" target="_blank" rel="noopener noreferrer" style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "10px", padding: "12px", borderRadius: "12px", background: "#2AABEE", color: "white", textDecoration: "none", fontWeight: 600, fontSize: "15px" }}>
+                ✈️ Telegram
+              </a>
+              <a href="https://icq.im/79856008537" target="_blank" rel="noopener noreferrer" style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "10px", padding: "12px", borderRadius: "12px", background: "#8B5CF6", color: "white", textDecoration: "none", fontWeight: 600, fontSize: "15px" }}>
+                💜 MAX
+              </a>
+            </div>
+            <button onClick={() => setShowContacts(false)} style={{ marginTop: "24px", background: "none", border: "none", color: "#999", cursor: "pointer", fontSize: "14px" }}>Закрыть</button>
+          </div>
+        </div>
+      )}
 
       <main>
         <section className="hero">
