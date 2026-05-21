@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const ORDER_URL = "https://functions.poehali.dev/e6efea22-0398-49fb-b01a-9a4ba4d75728";
 
@@ -74,6 +75,7 @@ function OrderForm() {
 }
 
 export default function Index() {
+  const navigate = useNavigate();
   return (
     <>
       <div className="grain-overlay" />
@@ -118,7 +120,7 @@ export default function Index() {
               <button className="btn-cta" style={{ background: "var(--primary)", color: "white" }} onClick={() => document.getElementById("order-form")?.scrollIntoView({ behavior: "smooth" })}>
                 Заказать торт
               </button>
-              <button className="btn-cta" style={{ background: "white" }}>
+              <button className="btn-cta" style={{ background: "white" }} onClick={() => navigate("/gallery")}>
                 Смотреть работы
               </button>
               <a href="https://wa.me/89856008537" target="_blank" rel="noopener noreferrer" className="btn-cta" style={{ background: "#25D366", color: "white", textDecoration: "none", display: "inline-flex", alignItems: "center", gap: "8px" }}>
