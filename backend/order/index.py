@@ -2,8 +2,11 @@ import json
 import os
 import smtplib
 import urllib.request
+import logging
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
+
+logger = logging.getLogger()
 
 
 def handler(event: dict, context) -> dict:
@@ -63,6 +66,7 @@ def handler(event: dict, context) -> dict:
             urllib.request.urlopen(req, timeout=10)
     except Exception as e:
         errors.append(f'Telegram: {str(e)}')
+        logger.error(f'Telegram error: {str(e)}')
 
     # Отправка на Email
     try:
@@ -80,6 +84,9 @@ def handler(event: dict, context) -> dict:
                 server.sendmail(smtp_from, email_to, msg.as_string())
     except Exception as e:
         errors.append(f'Email: {str(e)}')
+        logger.error(f'Email error: {str(e)}')
+
+    logger.info(f'Order processed. Errors: {errors}')
 
     return {
         'statusCode': 200,
