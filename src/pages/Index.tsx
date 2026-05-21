@@ -99,7 +99,7 @@ export default function Index() {
           <a href="https://www.instagram.com/tortik_ot_kotika?utm_source=qr&igsh=aGtqaWJvbzN2bmN5" target="_blank" rel="noopener noreferrer" style={{ display: "flex", alignItems: "center", justifyContent: "center", width: "36px", height: "36px", borderRadius: "50%", background: "var(--primary)", color: "white", textDecoration: "none", fontSize: "16px" }}>📷</a>
           <a href="https://wa.me/89856008537" target="_blank" rel="noopener noreferrer" style={{ display: "flex", alignItems: "center", justifyContent: "center", width: "36px", height: "36px", borderRadius: "50%", background: "var(--primary)", color: "white", textDecoration: "none", fontSize: "16px" }}>💬</a>
           <a href="https://t.me/+79856008537" target="_blank" rel="noopener noreferrer" style={{ display: "flex", alignItems: "center", justifyContent: "center", width: "36px", height: "36px", borderRadius: "50%", background: "var(--primary)", color: "white", textDecoration: "none", fontSize: "16px" }}>✈️</a>
-          <button className="btn-cta">Заказать торт</button>
+          <button className="btn-cta" onClick={() => document.getElementById("order-form")?.scrollIntoView({ behavior: "smooth" })}>Заказать торт</button>
         </div>
       </header>
 
@@ -115,7 +115,7 @@ export default function Index() {
               Авторские торты на заказ. Делаем каждый торт с душой — от нежных бисквитов до шедевров с живыми цветами. Любой повод, любая фантазия.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-5">
-              <button className="btn-cta" style={{ background: "var(--primary)", color: "white" }}>
+              <button className="btn-cta" style={{ background: "var(--primary)", color: "white" }} onClick={() => document.getElementById("order-form")?.scrollIntoView({ behavior: "smooth" })}>
                 Заказать торт
               </button>
               <button className="btn-cta" style={{ background: "white" }}>
@@ -363,7 +363,7 @@ export default function Index() {
           </div>
         </section>
 
-        <section className="section-padding" style={{ background: "var(--bg)", borderTop: "var(--border)" }}>
+        <section id="order-form" className="section-padding" style={{ background: "var(--bg)", borderTop: "var(--border)" }}>
           <div style={{ maxWidth: "760px", margin: "0 auto" }}>
             <h2 className="section-title" style={{ marginBottom: "12px", textAlign: "center" }}>ЗАКАЗАТЬ ТОРТ</h2>
             <p style={{ textAlign: "center", color: "#666", marginBottom: "40px", fontSize: "16px" }}>
