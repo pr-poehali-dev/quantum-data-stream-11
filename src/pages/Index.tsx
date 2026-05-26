@@ -100,7 +100,7 @@ export default function Index() {
         </nav>
         <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
           <a href="https://www.instagram.com/tortik_ot_kotika?utm_source=qr&igsh=aGtqaWJvbzN2bmN5" target="_blank" rel="noopener noreferrer" style={{ display: "flex", alignItems: "center", justifyContent: "center", width: "36px", height: "36px", borderRadius: "50%", background: "var(--primary)", color: "white", textDecoration: "none", fontSize: "16px" }}>📷</a>
-          <a href="https://web.max.app/phone/79856008537" target="_blank" rel="noopener noreferrer" style={{ display: "flex", alignItems: "center", justifyContent: "center", width: "36px", height: "36px", borderRadius: "50%", background: "var(--primary)", color: "white", textDecoration: "none", fontSize: "16px" }}>💬</a>
+          <a href="https://max.ru/u/f9LHodD0cOIJr4fUdUwKgDb_uCaz6ZQJox7SQlNcNPb4U64ctWdvyragkVI" target="_blank" rel="noopener noreferrer" style={{ display: "flex", alignItems: "center", justifyContent: "center", width: "36px", height: "36px", borderRadius: "50%", background: "var(--primary)", color: "white", textDecoration: "none", fontSize: "16px" }}>💬</a>
           <a href="https://t.me/+79856008537" target="_blank" rel="noopener noreferrer" style={{ display: "flex", alignItems: "center", justifyContent: "center", width: "36px", height: "36px", borderRadius: "50%", background: "var(--primary)", color: "white", textDecoration: "none", fontSize: "16px" }}>✈️</a>
           <button className="btn-cta" onClick={() => document.getElementById("order-form")?.scrollIntoView({ behavior: "smooth" })}>Заказать торт</button>
         </div>
@@ -112,7 +112,7 @@ export default function Index() {
             <h2 style={{ fontFamily: "'Unbounded', sans-serif", fontSize: "18px", marginBottom: "8px" }}>Контакты</h2>
             <a href="tel:+79856008537" style={{ display: "block", fontSize: "24px", fontWeight: 700, color: "var(--primary)", textDecoration: "none", margin: "16px 0" }}>+7 985 600-85-37</a>
             <div style={{ display: "flex", flexDirection: "column", gap: "12px", marginTop: "20px" }}>
-              <a href="https://web.max.app/phone/79856008537" target="_blank" rel="noopener noreferrer" style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "10px", padding: "12px", borderRadius: "12px", background: "#25D366", color: "white", textDecoration: "none", fontWeight: 600, fontSize: "15px" }}>
+              <a href="https://max.ru/u/f9LHodD0cOIJr4fUdUwKgDb_uCaz6ZQJox7SQlNcNPb4U64ctWdvyragkVI" target="_blank" rel="noopener noreferrer" style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "10px", padding: "12px", borderRadius: "12px", background: "#25D366", color: "white", textDecoration: "none", fontWeight: 600, fontSize: "15px" }}>
                 💬 WhatsApp
               </a>
               <a href="https://t.me/+79856008537" target="_blank" rel="noopener noreferrer" style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "10px", padding: "12px", borderRadius: "12px", background: "#2AABEE", color: "white", textDecoration: "none", fontWeight: 600, fontSize: "15px" }}>
@@ -145,7 +145,7 @@ export default function Index() {
               <button className="btn-cta" style={{ background: "white" }} onClick={() => navigate("/gallery")}>
                 Смотреть работы
               </button>
-              <a href="https://web.max.app/phone/79856008537" target="_blank" rel="noopener noreferrer" className="btn-cta" style={{ background: "#25D366", color: "white", textDecoration: "none", display: "inline-flex", alignItems: "center", gap: "8px" }}>
+              <a href="https://max.ru/u/f9LHodD0cOIJr4fUdUwKgDb_uCaz6ZQJox7SQlNcNPb4U64ctWdvyragkVI" target="_blank" rel="noopener noreferrer" className="btn-cta" style={{ background: "#25D366", color: "white", textDecoration: "none", display: "inline-flex", alignItems: "center", gap: "8px" }}>
                 💬 Написать нам
               </a>
             </div>
