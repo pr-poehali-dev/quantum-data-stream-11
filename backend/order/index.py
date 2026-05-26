@@ -79,7 +79,7 @@ def handler(event: dict, context) -> dict:
             msg['From'] = smtp_from
             msg['To'] = email_to
             msg.attach(MIMEText(message_text, 'plain', 'utf-8'))
-            with smtplib.SMTP_SSL('smtp.gmail.com', 465) as server:
+            with smtplib.SMTP_SSL('smtp.yandex.ru', 465) as server:
                 server.login(smtp_from, smtp_password)
                 server.sendmail(smtp_from, email_to, msg.as_string())
     except Exception as e:
