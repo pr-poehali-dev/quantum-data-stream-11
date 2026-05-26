@@ -100,7 +100,7 @@ export default function Index() {
         </nav>
         <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
           <a href="https://www.instagram.com/tortik_ot_kotika?utm_source=qr&igsh=aGtqaWJvbzN2bmN5" target="_blank" rel="noopener noreferrer" style={{ display: "flex", alignItems: "center", justifyContent: "center", width: "36px", height: "36px", borderRadius: "50%", background: "var(--primary)", color: "white", textDecoration: "none", fontSize: "16px" }}>📷</a>
-          <a href="https://wa.me/89856008537" target="_blank" rel="noopener noreferrer" style={{ display: "flex", alignItems: "center", justifyContent: "center", width: "36px", height: "36px", borderRadius: "50%", background: "var(--primary)", color: "white", textDecoration: "none", fontSize: "16px" }}>💬</a>
+          <a href="https://wa.me/79856008537" target="_blank" rel="noopener noreferrer" style={{ display: "flex", alignItems: "center", justifyContent: "center", width: "36px", height: "36px", borderRadius: "50%", background: "var(--primary)", color: "white", textDecoration: "none", fontSize: "16px" }}>💬</a>
           <a href="https://t.me/+79856008537" target="_blank" rel="noopener noreferrer" style={{ display: "flex", alignItems: "center", justifyContent: "center", width: "36px", height: "36px", borderRadius: "50%", background: "var(--primary)", color: "white", textDecoration: "none", fontSize: "16px" }}>✈️</a>
           <button className="btn-cta" onClick={() => document.getElementById("order-form")?.scrollIntoView({ behavior: "smooth" })}>Заказать торт</button>
         </div>
@@ -145,7 +145,7 @@ export default function Index() {
               <button className="btn-cta" style={{ background: "white" }} onClick={() => navigate("/gallery")}>
                 Смотреть работы
               </button>
-              <a href="https://wa.me/89856008537" target="_blank" rel="noopener noreferrer" className="btn-cta" style={{ background: "#25D366", color: "white", textDecoration: "none", display: "inline-flex", alignItems: "center", gap: "8px" }}>
+              <a href="https://wa.me/79856008537" target="_blank" rel="noopener noreferrer" className="btn-cta" style={{ background: "#25D366", color: "white", textDecoration: "none", display: "inline-flex", alignItems: "center", gap: "8px" }}>
                 💬 Написать нам
               </a>
             </div>
